@@ -1185,3 +1185,28 @@ ol {
 		line-height: 100px;
 	}
 }
+
+
+.chooseus-section {
+	background: #EDF0F3;
+}
+
+.img-sidebar {
+  margin-top: 50px;
+}
+
+.img-sidebar h4 {
+	margin-left: 20px;
+}
+
+.blog_sidebar {
+  background: white;
+}
+
+.blog_item_img .blog_item_date {
+	background-color: #1894DE;
+}
+
+.chooseus-top {
+	margin-top: -200px;	
+}
