@@ -1210,3 +1210,15 @@ ol {
 .chooseus-top {
 	margin-top: -200px;	
 }
+
+/*========================*/
+
+.color-white h4,
+.color-white h5,
+.color-white h6 {
+	color: white;
+}
+
+.section-title h5 {
+	text-align: left;
+}
