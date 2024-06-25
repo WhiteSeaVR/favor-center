@@ -160,9 +160,9 @@ ol {
 	-o-transition-duration: 500ms;
 	transition-duration: 500ms;
 	background: #e16521;
-	background: -webkit-gradient(linear, left top, right top, from(#007BFF), to(#007BFF));
-	background: -o-linear-gradient(left, #007BFF, #007BFF);
-	background: linear-gradient(to right, #007BFF, #007BFF);
+	background: -webkit-gradient(linear, left top, right top, from(#61DAFB), to(#007BFF));
+	background: -o-linear-gradient(left, #61DAFB, #007BFF);
+	background: linear-gradient(to right, #61DAFB, #007BFF);
 	content: "";
 	position: absolute;
 	width: 100%;
