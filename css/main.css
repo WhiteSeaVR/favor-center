@@ -194,10 +194,94 @@ ol {
 
 .header__menu ul li.active>a {
 	color: #1894DE;
-	background: blue;
 	border-radius: 5px;
 	padding: 10px;
 }
+
+.header__menu ul li a {
+	font-size: 15px;
+	color: #111111;
+	font-weight: 700;
+	font-family: "Unna", serif;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+	padding: 10px 0;
+	display: block;
+}
+
+.header__menu ul li a:after {
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	width: 100%;
+	height: 2px;
+	background: #1894DE;
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	transform: scaleX(0);
+}
+
+
+/*4444*/
+
+.header__menu ul li.menu2>a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+.header__menu ul li.menu3>a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.header__menu ul li.active1>a {
+	color: #1894DE;
+	background: #F2EBDE;
+	border: solid 1px #BFB5A4;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+	padding: 5px;
+}
+
+.header__menu ul li.active3>a {
+	color: #FFF;
+	background: #004AB5;
+	border: solid 1px blue;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.header__bg2 {
+	background: #61DAFB;
+}
+
+.header__menu ul li.menu1:hover>a {
+	color: black;
+	background: #F2EBDE;
+	border: solid 1px #BFB5A4;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+	padding: 5px;
+}
+
+.header__menu ul li.menu3:hover>a {
+	color: #FFF;
+	background: #004AB5;
+	border: solid 1px blue;
+	border-radius: 4px;
+	padding: 5px 0;
+}
+
 
 .header__menu ul li.active>a:after {
 	opacity: 1;
@@ -210,12 +294,6 @@ ol {
 	top: 42px;
 	opacity: 1;
 	visibility: visible;
-}
-
-.header__menu ul li:hover>a {
-	color: #1894DE;
-	background: blue;
-	border-radius: 5px;
 }
 
 .header__menu ul li:hover>a:after {
@@ -271,7 +349,7 @@ ol {
 	display: none;
 }
 
-.header__menu ul li a {
+/*.header__menu ul li a {
 	font-size: 15px;
 	color: #111111;
 	font-weight: 700;
@@ -300,7 +378,7 @@ ol {
 	-webkit-transform: scaleX(0);
 	-ms-transform: scaleX(0);
 	transform: scaleX(0);
-}
+}*/
 
 .header__megamenu__wrapper {
 	position: absolute;
